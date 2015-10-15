@@ -1,4 +1,9 @@
-Automation of google ocr through gdcmdtools library.
+Automation of google ocr using python
+=====================================
+
+
+See a demo video on installation,  setup, usage in Tamil here: https://www.youtube.com/watch?v=PH9TnD67oj4&feature=youtu.be
+
 
 1. install gdcmdtools from https://github.com/tienfuc/gdcmdtools and complete the setup
 2. use "convert" tool by imagemagics to convert a pdf into individual images.
