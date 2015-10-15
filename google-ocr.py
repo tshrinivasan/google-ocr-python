@@ -24,7 +24,12 @@ for image in sorted(files):
 
 
 print "Merging all text files into ocr-result.txt"
-os.system("cat *.txt > ocr-result.txt")
-print "Done"
 	
+files = glob.glob('*.txt' )
 
+with open('ocr-result.txt', 'w' ) as result:
+    for textfile in files:
+        for line in open( textfile, 'r' ):
+            result.write( line )
+
+print "Done"
